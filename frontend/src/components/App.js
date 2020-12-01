@@ -11,9 +11,10 @@ export default class App extends Component{
     render(){
     // return <h1>This is a testcase {this.props.name}</h1>;
         return  ( 
-        <div>
+        <div className='center'>
             <HomePage />
-        </div>);
+        </div>
+        );
     }
 }
 
